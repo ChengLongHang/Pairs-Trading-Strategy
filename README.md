@@ -17,7 +17,7 @@ Pairs identified with correlation > 0.8 are BAC- WFC, MA- V and HD- LOW.
 ![image](https://github.com/user-attachments/assets/53f24076-240e-4c06-b0f3-166519846227)
 ![image](https://github.com/user-attachments/assets/31992841-b3a4-4a32-8598-7dd177aceddf)
 
-# Pair Spreads
+# Pair Spreads (spread means are normalized to 0)
 ![image](https://github.com/user-attachments/assets/31e01b9d-65a1-49f4-afea-ebbdabb847a5)
 
 # Equity Curves and Results
