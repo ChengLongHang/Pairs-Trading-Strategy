@@ -17,6 +17,26 @@ Pairs identified with correlation > 0.8 are BAC- WFC, MA- V and HD- LOW.
 ![image](https://github.com/user-attachments/assets/53f24076-240e-4c06-b0f3-166519846227)
 ![image](https://github.com/user-attachments/assets/31992841-b3a4-4a32-8598-7dd177aceddf)
 
+# ADF (Stationarity) Test and Cointegration Test Results
+
+| Sector               | Pair              | ADF Stat Stock1 | ADF Stat Stock2 | ADF Stationarity Stock1 | ADF Stationarity Stock2 | ADF p-value Stock1 | ADF p-value Stock2 |
+|----------------------|-------------------|-----------------|-----------------|-------------------------|-------------------------|--------------------|--------------------|
+| Financial Services   | (BAC, WFC)       | -13.865826      | -9.238028       | True                    | True                    | 6.600628e-26       | 1.610591e-15       |
+| Financial Services   | (MA, V)          | -15.898216      | -10.468862      | True                    | True                    | 8.387689e-29       | 1.300054e-18       |
+| Financial Services   | (V, MA)          | -10.468862      | -15.898216      | True                    | True                    | 1.300054e-18       | 8.387689e-29       |
+| Financial Services   | (WFC, BAC)       | -9.238028       | -13.865826      | True                    | True                    | 1.610591e-15       | 6.600628e-26       |
+| Consumer Discretionary | (HD, LOW)      | -11.891555      | -6.861978       | True                    | True                    | 5.852387e-22       | 1.593923e-09       |
+| Consumer Discretionary | (LOW, HD)      | -6.861978       | -11.891555      | True                    | True                    | 1.593923e-09       | 5.852387e-22       |
+
+| Sector               | Pair              | Cointegration   | Cointegration p-value | Cointegrated |
+|----------------------|-------------------|-----------------|-----------------------|--------------|
+| Financial Services   | (BAC, WFC)       | -12.352679      | 6.396368e-22          | True         |
+| Financial Services   | (MA, V)          | -15.874742      | 7.001214e-28          | True         |
+| Financial Services   | (V, MA)          | -15.624532      | 1.379227e-27          | True         |
+| Financial Services   | (WFC, BAC)       | -17.874831      | 2.073644e-29          | True         |
+| Consumer Discretionary | (HD, LOW)      | -15.809165      | 8.321765e-28          | True         |
+| Consumer Discretionary | (LOW, HD)      | -12.224898      | 1.216816e-21          | True         |
+
 # Pair Spreads (spread means are normalized to 0)
 ![image](https://github.com/user-attachments/assets/31e01b9d-65a1-49f4-afea-ebbdabb847a5)
 
